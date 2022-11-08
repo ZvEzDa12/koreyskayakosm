@@ -87,6 +87,11 @@ figure {
 
 .text {}
 
+.section-config {
+  margin-left: 121px;
+  margin-right: 121px;
+}
+
 .container {
   max-width: 1920px;
   width: 100%;
@@ -143,8 +148,7 @@ figure {
 
 .header__second-row {
   display: flex;
-  background: gray;
-  padding: 0 121px 0 121px;
+  padding-left: 121px;
   height: 87px;
 }
 
@@ -197,7 +201,7 @@ figure {
 .social {
   display: flex;
   align-items: center;
-  margin-left: 199px;
+  margin-left: 570px;
 }
 
 .social li {
@@ -206,6 +210,7 @@ figure {
 
 .nav__menu {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-left: 40px;
 }
