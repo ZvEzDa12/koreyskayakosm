@@ -92,6 +92,46 @@ figure {
   margin-right: 121px;
 }
 
+.section-first {
+  background-image: url(/assets/img/services-card/mainphoto.jpg);
+  height: 698px;
+  padding-top: 90px;
+  padding-left: 275px;
+  width: 1920px;
+}
+
+.section-first__heading {
+  font-size: 6.1875rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 149px;
+}
+
+
+
+.section-first__content p {
+  font-size: 1.5rem;
+}
+
+.section-first__btn {
+  margin-top: 45px;
+  font-size: 1.125rem;
+  align-items: center;
+  background-color: #000000;
+  border: none;
+  height: 58px;
+  width: 268px;
+  color: #FFFFFF;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.section-first__btn:hover {
+  background-color: #F3F3F3;
+  color: #000000;
+}
+
+.btn {}
+
 .container {
   max-width: 1920px;
   width: 100%;
@@ -226,6 +266,12 @@ figure {
   font-size: 1.125rem;
   margin-right: 25px;
   color: var(--text-color)
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
 }
 
 .submenu {
