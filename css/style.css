@@ -78,6 +78,12 @@ figure {
   margin: 0;
 }
 
+.container {
+  max-width: 1678px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .list-reset {
   display: block;
   list-style: none;
@@ -122,38 +128,46 @@ figure {
 .header {}
 
 .header__row {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, 1fr); */
   background-color: var(--header-color);
   font-family: sans-serif;
 }
 
-.header__cities {
-  padding: 14px 0 14px 121px;
-  display: grid;
+.header__group {
+  display: flex;
   align-items: center;
-  justify-items: start;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.header__cities {
+  /* padding: 14px 0 14px 121px; */
+  /* display: grid; */
+  /* align-items: center; */
+  /* justify-items: start; */
 }
 
 .header__second-row {
   display: flex;
-  padding-left: 121px;
-  height: 87px;
+  padding-top: 37px;
+  padding-bottom: 23px;
 }
 
 .header__social {}
 
 .header__logo {
   display: flex;
-  align-items: center;
+  flex-shrink: 0;
+  /* align-items: center; */
 }
 
 
 .header__contacts {
-  display: grid;
-  align-items: center;
-  justify-items: end;
-  padding: 8px 121px 8px 0;
+  /* display: grid; */
+  /* align-items: center; */
+  /* justify-items: end; */
+  /* padding: 8px 121px 8px 0; */
   color: #FFFFFF;
   font-style: normal;
   font-weight: 400;
@@ -190,11 +204,14 @@ figure {
 .social {
   display: flex;
   align-items: center;
-  margin-left: 570px;
 }
 
 .social li {
   margin-right: 20px;
+}
+
+.social li:last-child {
+  margin-right: 0;
 }
 
 .nav__menu {
@@ -207,6 +224,7 @@ figure {
 .menu {
   display: flex;
   justify-content: space-between;
+  margin-right: auto;
 }
 
 .menu__link {
@@ -227,17 +245,10 @@ figure {
   display: none;
 }
 
-.section-config {
-  margin-left: 121px;
-  margin-right: 121px;
-}
-
 .section-first {
   background-image: url(/assets/img/services-card/mainphoto.jpg);
   height: 698px;
-  padding-top: 90px;
-  padding-left: 275px;
-  width: 1920px;
+  overflow: hidden;
 }
 
 .section-first__heading {
