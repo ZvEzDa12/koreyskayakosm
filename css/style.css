@@ -79,7 +79,8 @@ figure {
 }
 
 .container {
-  max-width: 1678px;
+  position: relative;
+  max-width: 1680px;
   width: 100%;
   margin: 0 auto;
 }
@@ -249,6 +250,7 @@ figure {
   background-image: url(/assets/img/services-card/mainphoto.jpg);
   height: 698px;
   overflow: hidden;
+
 }
 
 .section-first__heading {
@@ -257,6 +259,12 @@ figure {
   margin-top: 0;
   margin-bottom: 0;
   height: 149px;
+
+}
+
+.section-first__content {
+  position: absolute;
+  margin-top: 90px;
 }
 
 .section-first__content p {
