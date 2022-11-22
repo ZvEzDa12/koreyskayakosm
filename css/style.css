@@ -80,8 +80,8 @@ figure {
 
 .container {
   position: relative;
-  max-width: 1680px;
-  width: 100%;
+  max-width: 100%;
+
   margin: 0 auto;
 }
 
@@ -126,7 +126,9 @@ figure {
   transform: rotate(-45deg);
 }
 
-.header {}
+.header {
+  max-width: 100%;
+}
 
 .header__row {
   /* display: grid; */
@@ -250,7 +252,8 @@ figure {
   background-image: url(/assets/img/services-card/mainphoto.jpg);
   height: 698px;
   overflow: hidden;
-
+  background-repeat: no-repeat;
+  max-width: 100%;
 }
 
 .section-first__heading {
@@ -293,7 +296,7 @@ figure {
 
 .section-second {
   height: 480px;
-  width: 1678px;
+  width: 1680px;
   padding-top: 68px;
-
+  max-width: 100%;
 }
