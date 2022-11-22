@@ -236,7 +236,9 @@ figure {
 .section-first {
   background-image: url(/assets/img/services-card/mainphoto.jpg);
   height: 698px;
-  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 
@@ -280,7 +282,6 @@ figure {
 
 .section-second {
   height: 480px;
-  width: 1678px;
   padding-top: 68px;
 
 }
@@ -307,7 +308,7 @@ figure {
 }
 
 .footer__mail {
-  padding-top: 16px;
+  padding-top: 5px;
 }
 
 .footer__address {
