@@ -91,7 +91,6 @@ a {
 }
 
 img {
-  max-width: 100%;
   height: auto;
 }
 
@@ -276,7 +275,6 @@ figure {
 .section-first__content {
   position: absolute;
   margin-top: 90px;
-
 }
 
 .section-first__content p {
@@ -304,9 +302,38 @@ figure {
 .btn {}
 
 .section-second {
-  height: 480px;
-  padding-top: 68px;
+  padding-top: 70px;
+}
 
+.section-second__top-content {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.section-second__img {}
+
+.seciton-second__article {
+  margin-top: 16px;
+}
+
+.section-second__bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.section-second__bottom-article {
+  padding: 20px 32px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: calc(25% - 18.75px);
+  font-family: 'Gilroy Medium', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.125rem;
+  letter-spacing: 0.0375em;
+  color: var(--section2-text-color);
+  line-height: 150%;
 }
 
 .footer {
