@@ -50,9 +50,17 @@
     <div class="container">
       <div>
         <nav class="header__second-row">
-          <a class="header__logo logo" href="#">
-            <img src="/assets/img/logo.svg" alt="Логотип магазина KKshop">
-          </a>
+          <div class="header__burger">
+            <span></span>
+          </div>
+          <div class="header__mob-logo-city">
+            <a class="header__logo logo" href="#">
+              <img src="/assets/img/logo.svg" alt="Логотип магазина KKshop">
+            </a>
+            <div class="header__mob-city">
+              <button class="change-city__open" type="button">Санкт-Петербург <span class="caret"></span></button>
+            </div>
+          </div>
           <ul class="nav__menu menu list-reset">
             <li class="menu__item">
               <a class="menu__link menu__link_active" href="#">Каталог<span class="menu__caret"></span></a>
@@ -114,7 +122,7 @@
                   <a class="submenu__link" href="#">Уход за волосами</a>
                 </li>
                 <li class="submenu__item">
-                  <a clagss="submenu__link" href="#">Наборы и аксессуары</a>
+                  <a class="submenu__link" href="#">Наборы и аксессуары</a>
                 </li>
               </ul>
             </li>
@@ -193,9 +201,7 @@
         <div class="section-first__content">
           <h1 class="section-first__heading">SKINDOM</h1>
           <p>Специальные цены только до 30 апреля</p>
-          <a href="#">
-            <button type="button" class="btn section-first__btn">Перейти в каталог</button>
-          </a>
+          <button class="btn section-first__btn" onclick="#">Перейти в каталог</button>
         </div>
       </div>
     </section>
@@ -425,7 +431,7 @@
           </div>
         </div>
       </div>
-
+    </section>
   </main>
 
   <!-- FOOTER -->
@@ -603,7 +609,7 @@
                   <defs>
                     <linearGradient id="paint0_linear_7907_2286" x1="6.22793" y1="24.6913" x2="24.6595" y2="5.56425"
                       gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#EEA054" />
+                      <stop offset="1" stop-color="#EEA054" />
                       <stop offset="0.502762" stop-color="#D64763" />
                       <stop offset="1" stop-color="#B62A99" />
                     </linearGradient>
@@ -646,7 +652,7 @@
                 <defs>
                   <linearGradient id="paint0_linear_8004_2266" x1="37.6824" y1="3.3473" x2="53.4648" y2="3.3473"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#27B1E6" />
+                    <stop offset="1" stop-color="#27B1E6" />
                     <stop offset="1" stop-color="#148ACA" />
                   </linearGradient>
                 </defs>
