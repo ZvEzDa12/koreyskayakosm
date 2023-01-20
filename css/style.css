@@ -247,6 +247,8 @@ form {
   margin-left: 40px;
 }
 
+
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -868,6 +870,10 @@ form {
   display: none;
 }
 
+.hidden-menu {
+  display: none;
+}
+
 @media (max-width: 1620px) {
 
   .section-second__top-content {
@@ -1434,7 +1440,15 @@ form {
 
 @media (max-width:419px) {
   .container {
-    max-width: 320px;
+    max-width: 280px;
+  }
+
+  .footer__group-bottom {
+    padding-top: 70px;
+  }
+
+  .footer__pay-cards {
+    bottom: -85px;
   }
 
   .section-new__card {
@@ -1447,19 +1461,5 @@ form {
 
   .section-first__content {
     left: 10%
-  }
-}
-
-@media (max-width:419px) {
-  .container {
-    max-width: 280px;
-  }
-
-  .footer__group-bottom {
-    padding-top: 70px;
-  }
-
-  .footer__pay-cards {
-    bottom: -85px;
   }
 }
