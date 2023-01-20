@@ -937,19 +937,19 @@ form {
 
 @media (max-width:1090px) {
   .section-second__title {
-    font-size: 1.5625rem;
+    font-size: 25px;
   }
 
   .sectiton-second__article {
-    font-size: 0.875rem;
+    font-size: 14px;
   }
 
   .subscribe__title {
-    font-size: 2.8125rem;
+    font-size: 45px;
   }
 
   .subscribe__info {
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   .section-new__card {
@@ -1092,7 +1092,7 @@ form {
   }
 
   .section-first__heading {
-    font-size: 3.75rem;
+    font-size: 60px;
     height: 45px;
   }
 
@@ -1101,13 +1101,13 @@ form {
   }
 
   .section-first__content p {
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   .section-first__btn {
     padding: 0 30px;
     height: 45px;
-    font-size: 0.8125rem;
+    font-size: 13px;
     margin-top: 30px;
   }
 
@@ -1131,7 +1131,7 @@ form {
   }
 
   .section-second__title {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
 
   .sectiton-second__article {
@@ -1139,7 +1139,7 @@ form {
   }
 
   .section-second__link {
-    font-size: 0.9rem;
+    font-size: 14px;
   }
 
   .section-second__bottom-content {
@@ -1163,11 +1163,11 @@ form {
   }
 
   .subscribe__title {
-    font-size: 2rem;
+    font-size: 32px;
   }
 
   .subscribe__btn {
-    font-size: 1rem;
+    font-size: 16px;
     height: 54px;
   }
 
@@ -1244,11 +1244,11 @@ form {
   }
 
   .subscribe__title {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
 
   .subscribe__info {
-    font-size: 0.8rem;
+    font-size: 13px;
     margin-top: 10px;
   }
 
@@ -1263,7 +1263,7 @@ form {
   }
 
   .section-promo__card-title {
-    font-size: 2rem;
+    font-size: 32px;
   }
 
   .section-new__card {
@@ -1318,12 +1318,12 @@ form {
   }
 
   .section-first__heading {
-    font-size: 1.875rem;
+    font-size: 30px;
     height: 30px;
   }
 
   .section-first__content p {
-    font-size: 0.8125rem;
+    font-size: 13px;
     width: 180px;
     max-width: 100%;
   }
@@ -1331,7 +1331,7 @@ form {
   .section-first__btn {
     width: 150px;
     height: 35px;
-    font-size: 0.625rem;
+    font-size: 10rem;
     margin-top: 10px;
   }
 
@@ -1340,19 +1340,19 @@ form {
   }
 
   .section-second__title {
-    font-size: 1rem;
+    font-size: 16px;
     width: 500px;
     max-width: 100%;
   }
 
   .sectiton-second__article {
-    font-size: 0.75rem;
+    font-size: 12px;
     width: 500px;
     max-width: 100%;
   }
 
   .section-second__link {
-    font-size: 0.8rem;
+    font-size: 13px;
   }
 
   .section-second__bottom-article {
@@ -1360,23 +1360,23 @@ form {
   }
 
   .section-new__title {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
 
   .section-promo__title {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
 
   .section-promo__card-title {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
 
   .section-promo__card-info {
-    font-size: 0.9rem;
+    font-size: 14px;
   }
 
   .section-recommended__title {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
 
   .subscribe__form {
@@ -1385,11 +1385,11 @@ form {
   }
 
   .subscribe__title {
-    font-size: 1.2rem;
+    font-size: 19px;
   }
 
   .subscribe__info {
-    font-size: 0.7rem;
+    font-size: 11px;
     margin-top: 0;
   }
 
@@ -1398,7 +1398,7 @@ form {
   }
 
   .subscribe__btn {
-    font-size: 0.6rem;
+    font-size: 9.5px;
     height: 30px;
     margin-top: 10px;
   }
@@ -1428,7 +1428,7 @@ form {
   }
 
   .subscribe__title {
-    font-size: 1.2rem;
+    font-size: 19px;
   }
 
   .subscribe__title br {
