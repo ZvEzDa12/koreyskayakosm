@@ -1257,7 +1257,7 @@ form {
   }
 
   .subscribe__btn {
-    font-size: 0.8rem;
+    font-size: 13px;
     height: 40px;
     margin-top: 25px;
   }
@@ -1331,7 +1331,7 @@ form {
   .section-first__btn {
     width: 150px;
     height: 35px;
-    font-size: 10rem;
+    font-size: 9.6px;
     margin-top: 10px;
   }
 
