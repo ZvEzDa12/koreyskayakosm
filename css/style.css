@@ -1000,7 +1000,7 @@ form {
   .btn-menu {
     color: #fff;
     padding: 5px;
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     transition: left .23s;
     z-index: 3;
@@ -1047,7 +1047,7 @@ form {
   }
 
   .hidden-menu-ticker:checked~.btn-menu {
-    left: 160px;
+    left: 85px;
   }
 
   .hidden-menu-ticker:checked~.hidden-menu {
@@ -1068,7 +1068,6 @@ form {
     top: -10px;
   }
 
-  /*  */
 
   .change-city__open {
     color: #000;
